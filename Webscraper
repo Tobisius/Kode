@@ -22,7 +22,7 @@ public class WebScraping {
                         .text().equals("")) {
                     continue;
                 } else {
-                    // Concatenate all text within the first column for the company name
+
                     final String name = row.select("td.normal:nth-of-type(1)")
                             .text();
 
