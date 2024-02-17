@@ -1,3 +1,5 @@
+// For at dette program kan kører skal Jsoup bibloteket importeres til IDE
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
