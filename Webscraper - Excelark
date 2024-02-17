@@ -1,3 +1,5 @@
+// For at dette program kører skal pom.xlm filen også bruges til at importere de korrekte filer.
+// Desuden skal Jsoup også integreres for at programmet kan kører. 
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.jsoup.Jsoup;
